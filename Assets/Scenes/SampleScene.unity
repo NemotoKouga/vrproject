@@ -215,6 +215,7 @@ GameObject:
   - component: {fileID: 131111871}
   - component: {fileID: 131111870}
   - component: {fileID: 131111869}
+  - component: {fileID: 131111872}
   m_Layer: 5
   m_Name: room3
   m_TagString: Untagged
@@ -286,7 +287,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 131111870}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 131111872}
+        m_TargetAssemblyTypeName: Room3, Assembly-CSharp
+        m_MethodName: ClickRoom3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &131111870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,6 +338,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131111867}
   m_CullTransparentMesh: 1
+--- !u!114 &131111872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131111867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f62eb784a309d4a9f90eda7a5258fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &313281062
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,6 +442,7 @@ GameObject:
   - component: {fileID: 496528709}
   - component: {fileID: 496528708}
   - component: {fileID: 496528707}
+  - component: {fileID: 496528710}
   m_Layer: 5
   m_Name: room4
   m_TagString: Untagged
@@ -488,7 +514,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 496528708}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 496528710}
+        m_TargetAssemblyTypeName: Room4, Assembly-CSharp
+        m_MethodName: ClickRoom4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &496528708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,6 +565,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496528705}
   m_CullTransparentMesh: 1
+--- !u!114 &496528710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496528705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a591ba1f2f316e4d80e9988c1b56bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &695305682
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,6 +589,7 @@ GameObject:
   - component: {fileID: 695305686}
   - component: {fileID: 695305685}
   - component: {fileID: 695305684}
+  - component: {fileID: 695305687}
   m_Layer: 5
   m_Name: room2
   m_TagString: Untagged
@@ -610,7 +661,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 695305685}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 695305687}
+        m_TargetAssemblyTypeName: Room2, Assembly-CSharp
+        m_MethodName: ClickRoom2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &695305685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -649,6 +712,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695305682}
   m_CullTransparentMesh: 1
+--- !u!114 &695305687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695305682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7466a4f0e1a0a4abbe357ffa720146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,6 +1451,7 @@ GameObject:
   - component: {fileID: 1556774448}
   - component: {fileID: 1556774447}
   - component: {fileID: 1556774446}
+  - component: {fileID: 1556774449}
   m_Layer: 5
   m_Name: room6
   m_TagString: Untagged
@@ -1447,7 +1523,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1556774447}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1556774449}
+        m_TargetAssemblyTypeName: Room6, Assembly-CSharp
+        m_MethodName: ClickRoom6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1556774447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1486,6 +1574,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556774444}
   m_CullTransparentMesh: 1
+--- !u!114 &1556774449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556774444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8707f03616fb3ef43abf2531b538e3ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1610424879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,6 +1598,7 @@ GameObject:
   - component: {fileID: 1610424883}
   - component: {fileID: 1610424882}
   - component: {fileID: 1610424881}
+  - component: {fileID: 1610424884}
   m_Layer: 5
   m_Name: room5
   m_TagString: Untagged
@@ -1569,7 +1670,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1610424882}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1610424884}
+        m_TargetAssemblyTypeName: Room5, Assembly-CSharp
+        m_MethodName: ClickRoom5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1610424882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1608,6 +1721,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610424879}
   m_CullTransparentMesh: 1
+--- !u!114 &1610424884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610424879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb1577d0ad856249b3d057f6a6c99f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2002586653
 GameObject:
   m_ObjectHideFlags: 0
