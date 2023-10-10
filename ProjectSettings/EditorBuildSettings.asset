@@ -27,4 +27,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Room6.unity
     guid: 9c12ce10dceba7343a47152650d20e20
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: de82df57e17e07d4abc973b89ddeff43, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a51ed43350dfe9640abcd988a1dc19a9, type: 2}
