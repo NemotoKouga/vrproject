@@ -21,7 +21,7 @@ public class PhotoChange : MonoBehaviour
         if(count>=7)
         SceneManager.LoadScene("SampleScene");
 
-        img.sprite = Resources.Load<Sprite>("Image/photo" + count.ToString());
+        img.sprite = Resources.Load<Sprite>("Image/スライド" + count.ToString());
     }
 
     public void Back()
@@ -30,6 +30,6 @@ public class PhotoChange : MonoBehaviour
         if(count<=0)
         count=1;
 
-        img.sprite = Resources.Load<Sprite>("Image/photo" + count.ToString());
+        img.sprite = Resources.Load<Sprite>("Image/スライド" + count.ToString());
     }
 }
